@@ -10,6 +10,10 @@ body{
     font-weight: 600;
 }
 
+main{
+    padding: 70px;
+}
+
 /* HEADER */
 
 
@@ -88,10 +92,59 @@ header{
 .content{
     margin-top: 60px;
     margin-right: 20px;
+    position: relative;
+}
+
+.discount{
+    background-color: red;
+    width: 55px;
+    padding: 5px;
+    height: 26px;
+    bottom: 92px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sosten{
+    background-color: green;
+    width: 114px;
+    padding: 5px;
+    height: 26px;
+    bottom: 92px;
+    left: 60px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sosteni{
+    background-color: green;
+    width: 114px;
+    padding: 5px;
+    height: 26px;
+    bottom: 92px;
+    left: 0px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+}
+.heart{
+    background-color: white;
+    width: 29px;
+    padding: 5px;
+    height: 26px;
+    top: 10px;
+    right: 1px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
 }
 
 
-/* END MAIN */
+
+
 
 p{
     color: black;
@@ -112,3 +165,64 @@ p{
     color: black;
     text-decoration: line-through;
 }
+
+
+/* END MAIN */
+
+
+footer{
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    padding: 30px;
+ }
+
+
+.container-foot{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgb(26, 26, 26);
+}
+
+.row-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-foot{
+    width: 50%;
+}
+
+.leftf{
+    align-self: flex-end;
+    width:21%;
+}
+
+#row-left-foot{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col-left-foot{
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+/* col left header */
+
+#row-right-foot{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-right-foot{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+
+/* FOOTER */
+
