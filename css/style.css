@@ -19,8 +19,13 @@ main{
 
 header{
     background-color: rgb(255, 105, 0);
+    box-shadow: 0 0 10px 2px black;
     width: 100%;
     padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
  }
 
 
@@ -32,7 +37,7 @@ header{
 
 .row-orange{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -87,6 +92,20 @@ header{
 
 .model{
     width: 345px;
+    display: block;
+}
+
+.model-b{
+    width: 345px;
+    display: none;
+}
+
+.image-content:hover .model{
+    display: none;
+}
+
+.image-content:hover .model.b{
+    display: block;
 }
 
 .content{
@@ -136,10 +155,14 @@ header{
     padding: 5px;
     height: 26px;
     top: 10px;
-    right: 1px;
+    right: 0px;
     position: absolute;
     text-align: center;
     font-size: 15px;
+}
+
+.heart:hover{
+    color: red;
 }
 
 
@@ -194,8 +217,7 @@ footer{
 }
 
 .leftf{
-    align-self: flex-end;
-    width:21%;
+    text-align: right;
 }
 
 #row-left-foot{
@@ -217,10 +239,7 @@ footer{
 }
 
 .col-right-foot{
-    width: 100%;
-    text-align: center;
-    margin: 10px;
-    margin-top: 10px;
+    margin: 3px;
 }
 
 
